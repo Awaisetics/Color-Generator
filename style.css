@@ -1,0 +1,37 @@
+section{
+    width: 50%;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+}
+
+#colorBox{
+    height: 30vh;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#colorBox > span{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bolder;
+}
+
+#colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5;
+}
+
+article{
+    text-align: center;
+}
+
+article > span:first-child {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
