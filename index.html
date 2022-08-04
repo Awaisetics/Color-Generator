@@ -17,23 +17,22 @@
             <div id="colors">
                 <article>
                     <span style="color: red">Red</span><br><br>
-                    <input type="range"  min="0" max="255" value="0" id="red"><br>
+                    <input type="range"  min="0" max="255" oninput="generateColor()" value="0" id="red"><br>
                     <span id="ValueOfRedColor">0</span>
                 </article>
                 <article>
                     <span style="color: green">Green</span><br><br>
-                    <input type="range"  min="0" max="255" value="0" id="green"><br>
+                    <input type="range"  min="0" max="255" oninput="generateColor()" value="0" id="green"><br>
                     <span id="ValueOfGreenColor">0</span>
                 </article>
                 <article>
                     <span style="color: blue">Blue</span><br><br>
-                    <input type="range" min="0" max="255" value="0" id="blue"><br>
+                    <input type="range" min="0" max="255" oninput="generateColor()" value="0" id="blue"><br>
                     <span id="ValueOfBlueColor">0</span>
                 </article>
             </div>
         </section>
     </main>
     <script src="./colorGenerator.js"></script>
-    <!-- <script src="./colorGeneratorUsingOOP.js"></script> -->
 </body>
 </html>
